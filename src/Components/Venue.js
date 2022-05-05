@@ -1,12 +1,12 @@
 import React from 'react';
-import './Home.css';
+import './Venue.css';
 
-function Home() {
+function Venue() {
     return (
         <div class="container">
-            <p>Home Page</p>
+            <p>Venue</p>
         </div>
     )
   }
   
-  export default Home;
+  export default Venue;

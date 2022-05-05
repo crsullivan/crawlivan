@@ -11,7 +11,7 @@ function Footer() {
 
             </p>
             <div class="navitem">
-                <a class="navlink">Contact Us</a>
+                <a href="http://localhost:3000/contact"  class="navlink">Contact Us</a>
             </div>
         </div>
     )

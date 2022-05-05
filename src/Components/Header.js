@@ -5,16 +5,16 @@ function Header() {
     return (
         <div class="header">
             <div class="navitem">
-                <a class="navlink">Home</a>
+                <a href="http://localhost:3000/" class="navlink">Home</a>
             </div>
             <div class="navitem">
-                <a class="navlink">Bridal Party</a>
+                <a href="http://localhost:3000/bridal-party" class="navlink">Bridal Party</a>
             </div>
             <div class="navitem">
-                <a class="navlink">Venue</a>
+                <a href="http://localhost:3000/venue" class="navlink">Venue</a>
             </div>
             <div class="navitem">
-                <a class="navlink">Gallery</a>
+                <a href="http://localhost:3000/gallery" class="navlink">Gallery</a>
             </div>
         </div>
     )

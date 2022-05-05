@@ -1,12 +1,12 @@
 import React from 'react';
-import './Home.css';
+import './Gallery.css';
 
-function Home() {
+function Gallery() {
     return (
         <div class="container">
-            <p>Home Page</p>
+            <p>Gallery</p>
         </div>
     )
   }
   
-  export default Home;
+  export default Gallery;
