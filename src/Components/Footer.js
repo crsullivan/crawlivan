@@ -6,12 +6,12 @@ var year = new Date().getFullYear();
 
 function Footer() {
     return (
-        <div class="footer">
+        <div className="footer">
             <p>© EclecticLogic {year}
 
             </p>
-            <div class="navitem">
-                <a href="http://localhost:3000/contact"  class="navlink">Contact Us</a>
+            <div className="navitem">
+                <a href="/contact"  className="navlink">Contact Us</a>
             </div>
         </div>
     )

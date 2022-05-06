@@ -3,18 +3,18 @@ import './Header.css';
 
 function Header() {
     return (
-        <div class="header">
-            <div class="navitem">
-                <a href="http://localhost:3000/" class="navlink">Home</a>
+        <div className="header">
+            <div className="navitem">
+                <a href="/" className="navlink">Home</a>
             </div>
-            <div class="navitem">
-                <a href="http://localhost:3000/bridal-party" class="navlink">Bridal Party</a>
+            <div className="navitem">
+                <a href="/bridal-party" className="navlink">Bridal Party</a>
             </div>
-            <div class="navitem">
-                <a href="http://localhost:3000/venue" class="navlink">Venue</a>
+            <div className="navitem">
+                <a href="/venue" className="navlink">Venue</a>
             </div>
-            <div class="navitem">
-                <a href="http://localhost:3000/gallery" class="navlink">Gallery</a>
+            <div className="navitem">
+                <a href="/gallery" className="navlink">Gallery</a>
             </div>
         </div>
     )

@@ -3,7 +3,7 @@ import './BridalParty.css';
 
 function BridalParty() {
     return (
-        <div class="container">
+        <div className="container">
             <p>Bridal Party</p>
         </div>
     )
