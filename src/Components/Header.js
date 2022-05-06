@@ -14,7 +14,7 @@ function Header() {
                 <a href="/venue" className="navlink">Venue</a>
             </div>
             <div className="navitem">
-                <a href="/gallery" className="navlink">Gallery</a>
+                <a href="/faq" className="navlink">FAQ</a>
             </div>
         </div>
     )
