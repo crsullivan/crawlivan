@@ -1,13 +1,23 @@
 .header {
-    background-color: rgb(68, 71, 70);
-    height: 50px;
+    background-color: var(--plum);
+    align-items: center;
+    text-align: center;
+}
+
+.header img {
+    height: 5em
+}
+
+.header .navs {
+    width: 50%;
+    margin: auto;
     display:flex;
     justify-content: space-evenly;
     align-items: center;
-
+    padding: 1em;
 }
 
 .navlink {
     text-decoration: none;
-    color: aliceblue;
+    color: var(--magnolia);
 }

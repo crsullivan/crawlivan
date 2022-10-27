@@ -3,7 +3,7 @@ import './Venue.css';
 
 function Venue() {
     return (
-        <div class="container">
+        <div class="venue-container">
             <p>Venue</p>
         </div>
     )

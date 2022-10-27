@@ -1,16 +1,22 @@
 .footer {
-    background-color: rgb(68, 71, 70);
+    background-color: var(--plum);
     height: 50px;
-    display:flex;
-    justify-content: space-evenly;
-    align-items: center;
     position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
-    color: aliceblue;
+    color: var(--magnolia);
+
 }
 
-.navitem {
+.footer .footer-container {
+    width: 50%;
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin:auto;
+}
 
+.footernavitem {
+    
 }

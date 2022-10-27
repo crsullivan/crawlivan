@@ -1,3 +1,7 @@
-.container {
+.contact-container {
+    display: flex;
     font-size: 2rem;
+    padding: 1em;
+    width: 70%;
+    margin: auto;
 }

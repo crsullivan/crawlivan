@@ -1,4 +1,12 @@
 .App {
   height: 100vh;
-  background-color: #BA83B4;
+  background-color: var(--magnolia);
+}
+
+:root {
+  --magnolia: #F3EFF5;
+  --plum: #420039;
+  --turq: #5EC2B7;
+  --seagreen: #2CA6A4;
+  --elecblue: #53687E;
 }
