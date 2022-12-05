@@ -5,7 +5,8 @@
 }
 
 .header img {
-    height: 5em
+    height: 5em;
+    padding-top: 1em;
 }
 
 .header .navs {
@@ -20,7 +21,7 @@
 .navlink {
     text-decoration: none;
     color: var(--magnolia);
-    transition: all .4s ease-in-out;
+    transition: all .2s ease-in-out;
 }
 
 .navlink:hover {

@@ -1,7 +1,44 @@
-.venue-container {
+.main-venue-container {
+
+}
+
+.venue-info-container {
     display: flex;
-    font-size: 2rem;
     padding: 1em;
     width: 70%;
     margin: auto;
+    justify-content: space-around;
+    margin-bottom: 2em;
+    align-items: center;
+}
+
+.venue-container-text {
+}
+
+.venue-container-text p {
+    font-size: 1.25em;
+    margin-left: 1em;
+    width: 90%
+}
+
+.nordic-pic {
+    max-height: 400px;
+    min-width: 500px;
+}
+
+.map-container {
+    display: flex;
+    margin: auto;
+    align-items: center;
+    padding-bottom: 5em;
+    width: 70%;
+    font-size: 1.25em;
+    justify-content: space-around;
+    
+}
+
+iframe {
+    min-height: 500px;
+    min-width: 500px;
+    margin-right: 1.5em;
 }
