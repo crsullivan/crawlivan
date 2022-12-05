@@ -20,4 +20,9 @@
 .navlink {
     text-decoration: none;
     color: var(--magnolia);
+    transition: all .4s ease-in-out;
 }
+
+.navlink:hover {
+    color: var(--turq);
+  }

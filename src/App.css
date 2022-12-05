@@ -1,6 +1,7 @@
 .App {
-  height: 100vh;
+  height: 100%;
   background-color: var(--magnolia);
+  font-family: 'Libre Baskerville', serif;
 }
 
 :root {
@@ -10,3 +11,5 @@
   --seagreen: #2CA6A4;
   --elecblue: #53687E;
 }
+
+
