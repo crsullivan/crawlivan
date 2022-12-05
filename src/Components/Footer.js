@@ -12,7 +12,7 @@ function Footer() {
 
                 </p>
                 <div class="footernavitem">
-                    <a href="http://localhost:3000/contact"  class="navlink">Contact Us</a>
+                    <a href="https://crawlivan.wedding/contact"  class="navlink">Contact Us</a>
                 </div>
             </div>    
         </div>
