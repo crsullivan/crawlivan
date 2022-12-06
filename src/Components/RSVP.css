@@ -8,6 +8,11 @@
     min-height: 70vh;
 }
 
+.snackbar-centered {
+    position:absolute;
+    top: -200px;
+}
+
 .contact-form {
     display: flex;
     flex-direction: column;
