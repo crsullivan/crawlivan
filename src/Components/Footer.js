@@ -8,9 +8,7 @@ function Footer() {
     return (
         <div class="footer">
             <div class='footer-container'>
-                <p>© EclecticLogic {year}
-
-                </p>
+                <p>EclecticLogic {year}</p>
             </div>    
         </div>
     )
