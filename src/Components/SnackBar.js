@@ -20,7 +20,7 @@ export default function SnackBar(props) {
     const closeSnackBar = () => {
         clearTimeout(closeTimeout);
         ReactDOM.unmountComponentAtNode(document.getElementById('snackbar-fixed-container'));
-        window.location.assign('http://localhost:3000/')
+        window.location.assign('https://crawlivan.wedding/')
     }
 
     const beginCloseTimeout = () => {
