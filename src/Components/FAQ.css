@@ -1,7 +1,30 @@
-.gallery-container {
-    display: flex;
-    font-size: 2rem;
-    padding: 1em;
+.faq-container {
     width: 70%;
+    border-top: 2px dotted var(--turq);
     margin: auto;
+    margin-top: 1em;
+    padding:.25em 4em 0 4em;
+    padding-bottom: 5em;
+}
+
+h2 {
+    /* border-bottom: 2px dotted var(--turq); */
+}
+
+.faq-content-boxes {
+    width: 90%;
+    margin: auto;
+}
+
+.faq-questions {
+    border-bottom: 2px dotted var(--turq);
+}
+
+.faq-answers {
+    padding: 1em;
+    /* border: 1px solid var(--seagreen); */
+    width: 90%;
+    margin: auto;
+    border-radius: 3px;
+    background-color: ghostwhite;
 }
