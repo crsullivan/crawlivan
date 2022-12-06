@@ -19,6 +19,9 @@ function Header() {
                 <div class="navitem">
                     <a href="https://crawlivan.wedding/gallery" style={{color: window.location.href==='https://crawlivan.wedding/gallery' ? 'turquoise' : 'return' }} class="navlink">Gallery</a>
                 </div>
+                <div class="navitem">
+                    <a href="https://crawlivan.wedding/rsvp" style={{color: window.location.href==='https://crawlivan.wedding/rsvp' ? 'turquoise' : 'return' }} class="navlink">RSVP</a>
+                </div>
             </div>
         </div>
     )

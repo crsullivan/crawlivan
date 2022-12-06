@@ -1,8 +1,8 @@
 import React from 'react';
 import emailjs from 'emailjs-com';
-import './Contact.css';
+import './RSVP.css';
 
-function Contact() {
+function RSVP() {
 
     function sendEmail(e) {
         e.preventDefault();    //This is important, i'm not sure why, but the email won't send without it
@@ -17,7 +17,7 @@ function Contact() {
 
     return (
         <div class="contact-container">
-            <form className="contact-form" onSubmit={sendEmail}>
+            <form class="contact-form" onSubmit={sendEmail}>
                     <input type="hidden" name="contact_number" />
                 <div class="input-container">
                     <label>First and Last Name: </label>
@@ -47,4 +47,4 @@ function Contact() {
     )
   }
   
-  export default Contact;
+  export default RSVP;

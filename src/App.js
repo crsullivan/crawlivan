@@ -8,7 +8,7 @@ import Home from './Components/Home';
 import BridalParty from './Components/BridalParty';
 import Venue from './Components/Venue';
 import Gallery from './Components/Gallery';
-import Contact from './Components/Contact';
+import RSVP from './Components/RSVP';
 
 function App() {
   return (
@@ -20,7 +20,7 @@ function App() {
             <Route path="/bridal-party" element={<BridalParty />} />
             <Route path="/venue" element={<Venue />} />
             <Route path="/gallery" element={<Gallery />} />
-            <Route path="/contact" element={<Contact />} />
+            <Route path="/rsvp" element={<RSVP />} />
           </Routes>
         <Footer />
       </Router>
