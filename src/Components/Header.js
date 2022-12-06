@@ -8,16 +8,16 @@ function Header() {
             <img src={require("../Assets/Banner.png")} alt='Banner with the names of the bride and groom.'></img>
             <div class="navs">
                 <div class="navitem">
-                    <a href="https://crawlivan.wedding/" style={{color: window.location.href==='http://localhost:3000/' ? 'turquoise' : 'return'}} class="navlink">Home</a>
+                    <a href="https://crawlivan.wedding/" style={{color: window.location.href==='https://crawlivan.wedding/' ? 'turquoise' : 'return'}} class="navlink">Home</a>
                 </div>
                 <div class="navitem">
-                    <a href="https://crawlivan.wedding/bridal-party" style={{color: window.location.href==='http://localhost:3000/bridal-party' ? 'turquoise' : 'return'}} class="navlink">Bridal Party</a>
+                    <a href="https://crawlivan.wedding/bridal-party" style={{color: window.location.href==='https://crawlivan.wedding/bridal-party' ? 'turquoise' : 'return'}} class="navlink">Bridal Party</a>
                 </div>
                 <div class="navitem">
-                    <a href="https://crawlivan.wedding/venue" style={{color: window.location.href==='http://localhost:3000/venue' ? 'turquoise' : 'return'}} class="navlink">Venue</a>
+                    <a href="https://crawlivan.wedding/venue" style={{color: window.location.href==='https://crawlivan.wedding/venue' ? 'turquoise' : 'return'}} class="navlink">Venue</a>
                 </div>
                 <div class="navitem">
-                    <a href="https://crawlivan.wedding/gallery" style={{color: window.location.href==='http://localhost:3000/gallery' ? 'turquoise' : 'return' }} class="navlink">Gallery</a>
+                    <a href="https://crawlivan.wedding/gallery" style={{color: window.location.href==='https://crawlivan.wedding/gallery' ? 'turquoise' : 'return' }} class="navlink">Gallery</a>
                 </div>
             </div>
         </div>
