@@ -4,4 +4,21 @@
     padding: 1em;
     width: 70%;
     margin: auto;
+    justify-content: center;
+    min-height: 70vh;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-container {
+    padding: .5em;
+    display: flex;
+    justify-content: center;
+}
+
+label {
+    margin-right: .5em;
 }
