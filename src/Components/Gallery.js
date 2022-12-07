@@ -2,12 +2,9 @@ import React from 'react';
 import './Gallery.css';
 
 function Gallery() {
-    let allImages = document.querySelectorAll("img");
-    allImages.forEach((value)=>{
-        value.oncontextmenu = (e)=>{
-            e.preventDefault();
-        }
-    })
+
+    document.addEventListener('contextmenu', event => event.preventDefault());
+
     return (
         <div className="gallery-container">
             <img onContextMenu="return false;" src={require("../Assets/_DSC8777.jpg")} alt='Banner with the names of the brdie and groom.'></img>
