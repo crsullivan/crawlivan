@@ -1,9 +1,11 @@
-import React from 'react';
+import React, { useState } from 'react';
 import emailjs from 'emailjs-com';
 import './RSVP.css';
 import { showSuccessMessage, showErrorMessage } from '../utils/ExceptionUtils';
 
 function RSVP() {
+
+    const [count, setCount] = useState(1);
 
     function sendEmail(e) {
 
@@ -27,6 +29,17 @@ function RSVP() {
             
       }
 
+    function handleTextareaChange(e) {
+        setCount(e.target.value);
+    }
+
+    console.log(count)
+    if (count == 0) {
+        setCount(1)
+    }
+    console.log(count)
+
+
     return (
         <div className="contact-container">
             <div className="snackbar-centered">
@@ -35,28 +48,29 @@ function RSVP() {
             <form className="contact-form" onSubmit={sendEmail}>
                     <input type="hidden" name="contact_number" />
                 <div className="input-container">
-                    <label>First and Last Name: </label>
-                    <input type="text" name="from_name" />
+                    <label>First and Last Name*: </label>
+                    <input type="text" name="from_name" maxLength="35" required/>
                 </div>
                 <div className="input-container">
-                    <label>Email Address: </label>
-                    <input type="email" name="from_email" />
+                    <label>Email Address*: </label>
+                    <input type="email" name="from_email" required/>
                 </div>
                 <div className="input-container">
-                    <label>Phone Number: </label>
-                    <input type="number" name="phone" />
+                    <label>Phone Number*: </label>
+                    <input placeholder={'1111111111'} size="10" maxLength="10" type="tel" id="phone" name="phone" pattern="[0-9]{10}" title="10 digit phone number" required/>
                 </div>
                 <div className="input-container">
-                    <label>Guest Count: </label>
-                    <input type="number" name="count" />
+                    <label>Guest Count*: </label>
+                    <input type="number" min="1" max="10" name="count" placeholder={count} onChange={handleTextareaChange} required></input>
                 </div>
                 <div className="input-container">
                     <label>Message: </label>
-                    <textarea name="html_message" />
+                    <textarea name="html_message" required={ {count}===1 ? 'notRequired' : 'required'} />
                 </div>
                 <div className="input-container">
                     <input type="submit" value="Click Here to RSVP" />
                 </div>
+                <p>If your guest count is greater than one, please list the names of who you are including in the 'Message' field.</p>
             </form>
         </div>
     )
