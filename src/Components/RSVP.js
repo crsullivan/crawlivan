@@ -33,12 +33,9 @@ function RSVP() {
         setCount(e.target.value);
     }
 
-    console.log(count)
     if (count == 0) {
         setCount(1)
     }
-    console.log(count)
-
 
     return (
         <div className="contact-container">

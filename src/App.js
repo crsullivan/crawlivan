@@ -12,6 +12,9 @@ import FAQ from './Components/FAQ';
 import RSVP from './Components/RSVP';
 
 function App() {
+
+  console.log('What are you looking for in here?')
+
   return (
     <div className="App">
       <Router location={history.location} navigator={history}>
