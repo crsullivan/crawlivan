@@ -26,7 +26,6 @@ function RSVP() {
               }catch(e){
               }
           });
-            
       }
 
     function handleTextareaChange(e) {

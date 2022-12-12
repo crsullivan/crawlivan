@@ -1,7 +1,11 @@
+.main-venue-container {
+    width: 70%;
+    margin: auto;
+}
+
 .venue-info-container {
     display: flex;
     padding: 1em;
-    width: 70%;
     margin: auto;
     justify-content: space-around;
     margin-bottom: 2em;
@@ -22,18 +26,17 @@
 .map-container {
     display: flex;
     margin: auto;
-    align-items: center;
     padding-bottom: 5em;
-    width: 70%;
     font-size: 1.25em;
     justify-content: space-around;
-    
+    align-items: center;
+
 }
 
 iframe {
+    margin: auto;
     height: 500px;
     width: 500px;
-    margin-right: 1.5em;
 }
 
 .map-container-text {
