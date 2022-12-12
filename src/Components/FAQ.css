@@ -1,11 +1,9 @@
 .faq-container {
-    width: 70%;
+    max-width: 70%;
     border-top: 2px dotted var(--turq);
     margin: auto;
     margin-top: 1em;
-    padding:.25em 4em 0 4em;
-    padding-bottom: 5em;
-}
+    padding:.25em 4em 5em 4em;}
 
 h2 {
     /* border-bottom: 2px dotted var(--turq); */
@@ -32,6 +30,13 @@ h2 {
 @media only screen and (max-width: 600px) {
 
     .faq-container {
-        width: 50%;
+        max-width: 90%;
+        border: none;
+        padding:.25em 0em 6em 0em;
+    }
+
+    .faq-content-boxes {
+        width: 100%;
+        margin: auto;
     }
 }

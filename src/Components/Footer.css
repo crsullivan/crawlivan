@@ -17,6 +17,14 @@
     margin:auto;
 }
 
-.footernavitem {
+@media only screen and (max-width: 400px) {
+
+    .footer {
+        padding-bottom: 1em;
+    }
+
+    .footer .footer-container {
+        text-align: center;
+    }
     
 }

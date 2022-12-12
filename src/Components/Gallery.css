@@ -1,13 +1,13 @@
 .gallery-container {
     display: flex;
     flex-wrap: wrap;
-    font-size: 2rem;
+    font-size: 2em;
     padding: 1em;
     width: 70%;
     margin: auto;
     align-items: baseline;
     justify-content: space-around;
-
+    padding-bottom: 2em;
 }
 
 img {
@@ -17,4 +17,18 @@ img {
 
 .wide-image {
     max-width: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+
+    .gallery-container {
+        flex-direction: column;
+        margin: auto;
+        align-items: center;
+    }
+
+    .gallery-container img {
+        max-width:100%;
+        margin-bottom: 1em;
+    }
 }

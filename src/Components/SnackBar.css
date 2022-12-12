@@ -103,5 +103,7 @@
   @media (max-width: 728px) {
     .snackbar-container {
       width: auto;
+      margin-bottom: 5rem;
+      padding: 1rem 2rem 14rem;
     }
   }
