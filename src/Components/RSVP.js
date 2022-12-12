@@ -65,7 +65,7 @@ function RSVP() {
                 </div>
                 <div className="input-container">
                     <label>Message: </label>
-                    <textarea name="html_message" required={ {count}===1 ? 'notRequired' : 'required'} />
+                    <textarea name="html_message" required={count>1} />
                 </div>
                 <div className="input-container">
                     <input type="submit" value="Click Here to RSVP" />
