@@ -62,7 +62,7 @@ function RSVP() {
                 </div>
                 <div className="input-container">
                     <label>Message: </label>
-                    <textarea name="html_message" required={count>1} />
+                    <textarea name="html_message" required={count>1} title="If your guest count is greater than one, please list the names of who you are including."/>
                 </div>
                 <div className="input-container">
                     <input type="submit" value="Click Here to RSVP" />
