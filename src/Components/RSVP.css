@@ -31,3 +31,12 @@ label {
 .contact-form p {
     font-size: .7em;
 }
+
+@media only screen and (max-width: 600px) {
+
+    .input-container {
+        min-width: 50px;
+        display: flex;
+        flex-direction: column;
+    }
+}

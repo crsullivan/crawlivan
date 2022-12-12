@@ -9,7 +9,7 @@ function RSVP() {
 
     function sendEmail(e) {
 
-        e.preventDefault();    //This is important, i'm not sure why, but the email won't send without it
+        e.preventDefault();   
     
         emailjs.sendForm('service_w18fmpm', 'template_lrjix2q', e.target, 'G2hPmuJ7EZffDAAFa')
           .then((result) => {
@@ -18,8 +18,8 @@ function RSVP() {
               }catch(e){
                 showErrorMessage("We ran into an issue...", "Please ensure your information is correct and try again. If you continue to receive this error, please contact Connor.");
               }
-  //This is if you still want the page to reload (since e.preventDefault() cancelled that behavior) 
-          }, (error) => {
+
+            }, (error) => {
               console.log(error.text);
               try{
                 showErrorMessage("We ran into an issue...", "Please ensure your information is correct and try again. If you continue to receive this error, please contact Connor.");
@@ -33,7 +33,7 @@ function RSVP() {
         setCount(e.target.value);
     }
 
-    if (count == 0) {
+    if (count === 0) {
         setCount(1)
     }
 

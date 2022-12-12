@@ -28,3 +28,10 @@ h2 {
     border-radius: 3px;
     background-color: ghostwhite;
 }
+
+@media only screen and (max-width: 600px) {
+
+    .faq-container {
+        width: 50%;
+    }
+}

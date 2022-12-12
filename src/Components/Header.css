@@ -27,3 +27,16 @@
 .navlink:hover {
     color: var(--turq);
   }
+
+@media only screen and (max-width: 1000px) {
+
+    .header img{
+        min-width: 250px;
+        min-height: 25px;
+    }
+
+    .header .navs {
+        width: 90%;
+        font-size: .75em;
+    }
+}
