@@ -2,18 +2,21 @@
     width: 70%;
     margin: auto;
     align-items: center;
-    min-height: 100vh;
-    
+    background-color: var(--elecblue);
+    padding: 1em 0 4em 0;
+    height: auto;
 }
 
 .home-container-banner {
-    width: 100%;
+    width: 97%;
     height: 800px;
     background: linear-gradient( rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25) ), url("../Assets/_DSC0034.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     animation: fadeIn 5s;
+    margin: auto;
+    border-radius: 5px;
 }
 
 @keyframes fadeIn {
@@ -26,5 +29,34 @@
     margin: auto;
     width: 100%;
     text-align: center;
-    padding-top: 2em;
+    padding-top: 1em;
+    font-family: 'Dancing Script', cursive;
+    font-size: 3em;
+    text-shadow: 1px 1px 2px var(--plum);
+}
+
+.home-container-content {
+    width: 97%;
+    margin: auto;
+    background-color: var(--magnolia);
+    height: auto;
+    border-radius: 5px;
+}
+
+.home-container-content h1 {
+    color: var(--elecblue);
+    width: 18%;
+    padding: 1em 0 0 1em;
+    font-family: 'Dancing Script', cursive;
+    font-size: 3em;
+    text-shadow: 1px 1px 2px var(--turq);
+    border-bottom: 5px inset var(--elecblue);
+}
+
+.home-container-content p {
+    color: var(--elecblue);
+    width: 80%;
+    margin: auto;
+    padding: 1em 0 2em 0;
+    font-size: 1.75em;
 }
