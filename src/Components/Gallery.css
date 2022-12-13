@@ -13,6 +13,8 @@
 img {
     max-width:30%;
     margin-bottom: 1em;
+    border-radius: 3px;
+
 }
 
 .wide-image {
