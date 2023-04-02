@@ -20,7 +20,7 @@ function Home() {
                     Thus began a long and serious relationship that saw us pulled away from one another due to work, injury, disease, personal commitments/endeavors, and brought back together time and time again without failure, unwaveringly committed to each other and where we were headed both individually and in tandem.
                 </p>
                 <p>
-                    After nine years, Connor would propose to Kelsey in Honeymoon Cove on Lake Pleasant, while kayaking together on a planned vacation to Peoria, AZ. Only after would he realize the name of the location where he popped the question, as he was simply waiting for what felt like the right time, and had the ring on him without fail since purchasing it at the Tucson Gem and Mineral show a few months prior. Kelsey said yes, and immediatley began putting into action what she had been planning for years. The couple would then pick a venue, and the rest is well, fairly recent history.
+                    After nine years, Connor would propose to Kelsey on Lake Pleasant, while kayaking together on a planned vacation to Peoria, AZ. Only after would he realize the name of the location on the lake where he popped the question - Honeymoon Cove. He was simply waiting for what felt like the right time, and had the ring on him without fail since purchasing it at the Tucson Gem and Mineral show a few months prior. Kelsey said yes, and immediatley began putting into action what she had been planning for years. The couple would then pick a venue, and the rest is well, fairly recent history.
                 </p>
             </div>
         </div>
