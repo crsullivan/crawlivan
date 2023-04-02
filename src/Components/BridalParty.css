@@ -1,7 +1,47 @@
-.bridalparty-container {
-    display: flex;
-    font-size: 2rem;
-    padding: 1em;
-    width: 70%;
+.bp-container {
+    max-width: 70%;
+    border-top: 2px dotted var(--turq);
     margin: auto;
+    margin-top: 1em;
+    padding:.25em 4em 5em 4em;
+}
+    
+
+h2 {
+    /* border-bottom: 2px dotted var(--turq); */
+    font-size: 3em;
+}
+
+.bp-content-boxes {
+    width: 90%;
+    margin: auto;
+}
+
+.bp-questions {
+    border-bottom: 2px dotted var(--turq);
+    font-size: 1.5em;
+}
+
+.bp-answers {
+    padding: 1em;
+    /* border: 1px solid var(--seagreen); */
+    width: 90%;
+    margin: auto;
+    border-radius: 3px;
+    background-color: ghostwhite;
+    font-size: 1.3em;
+}
+
+@media only screen and (max-width: 600px) {
+
+    .bp-container {
+        max-width: 90%;
+        border: none;
+        padding:.25em 0em 6em 0em;
+    }
+
+    .bp-content-boxes {
+        width: 100%;
+        margin: auto;
+    }
 }

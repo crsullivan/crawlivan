@@ -7,6 +7,7 @@
 
 h2 {
     /* border-bottom: 2px dotted var(--turq); */
+    font-size: 2em;
 }
 
 .faq-content-boxes {
@@ -16,6 +17,7 @@ h2 {
 
 .faq-questions {
     border-bottom: 2px dotted var(--turq);
+    font-size: 1.5em;
 }
 
 .faq-answers {
@@ -25,6 +27,7 @@ h2 {
     margin: auto;
     border-radius: 3px;
     background-color: ghostwhite;
+    font-size: 1.3em;
 }
 
 @media only screen and (max-width: 600px) {
