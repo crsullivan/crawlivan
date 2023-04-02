@@ -14,8 +14,9 @@ function BridalParty() {
             <div className='bp-content-boxes'>
                 <h3 className='bp-questions'>Darcy van Mouwerik</h3>
                 <div className='bp-answers'>
-                    <p className='answer'>Bride makeup</p>
+                    <p className='answer'>Makeup Artist</p>
                     <p className='answer'>Craftologist</p>
+                    <p className='answer'>DJ</p>
                 </div>
             </div>
             <div className='bp-content-boxes'>

@@ -11,7 +11,7 @@ function FAQ() {
             <div className='faq-content-boxes'>
                 <h3 className='faq-questions'>What is the Task Registry?</h3>
                 <div className='faq-answers'>
-                    <p className='answer'>If you are registered with a task, we will coordinate with you 2-4 weeks prior to the wedding date. For those of you that are registered, if you have any specific, preliminary questions, we are happy to answer them to the best of our ability ahead of time</p>
+                    <p className='answer'>If you are registered with a task, we will coordinate with you 2-4 weeks prior to the wedding date. For those of you that are registered, if you have any specific, preliminary questions, we are happy to answer them to the best of our ability ahead of time.</p>
                 </div>
             </div>
             <div className='faq-content-boxes'>
@@ -29,7 +29,7 @@ function FAQ() {
             <div className='faq-content-boxes'>
                 <h3 className='faq-questions'>Will there be the fun kind of drinks?</h3>
                 <div className='faq-answers'>
-                    <p className='answer'>We will have wine, a variety of beer, and some 'Truly' options as well. We will NOT have a bartender, as it is not required due to the location of our wedding. So, if you would like something specific, please feel free to BYOB.</p>
+                    <p className='answer'>We will have wine, a couple of beers, and a variety of 'Truly' options as well. We will NOT have a bartender, as it is not required due to the location of our wedding. So, if you would like something specific, please feel free to BYOB.</p>
                 </div>
             </div>
             <div className='faq-content-boxes'>
@@ -41,7 +41,7 @@ function FAQ() {
             <div className='faq-content-boxes'>
                 <h3 className='faq-questions'>What kind of accomodations do you have?</h3>
                 <div className='faq-answers'>
-                    <p className='answer'>We have four cabins and three yurts available for our guests free of charge, and they are first come first serve. Keep in mind these are pretty rustic. You can find their details {LodgingLink}, we will provide sheets and blankets, but don't forget your pillow! There is also quite a bit of room for camping. Please keep in mind that we will be 15-20 minutes outside of Flagsatff, there is no shuttle, and Uber/Lyft does not service the area, so relax responsibly, or plan to stay the night.</p>
+                    <p className='answer'>We have four cabins and three yurts available for our guests free of charge, and they are first come first serve. Keep in mind these are pretty rustic. You can find their details {LodgingLink}, we will provide sheets and blankets, but don't forget your pillow! There is also quite a bit of room for camping. Please keep in mind that we will be 20-30 minutes based on traffic outside of Flagstaff, there is no shuttle, and Uber/Lyft does not service the area, so relax responsibly, or plan to stay the night.</p>
                 </div>
             </div>
             <div className='faq-content-boxes'>
@@ -83,7 +83,7 @@ function FAQ() {
             <div className='faq-content-boxes'>
                 <h3 className='faq-questions'>Do you really expect me to go to the bathroom in the woods?</h3>
                 <div className='faq-answers'>
-                    <p className='answer'>Ok, we arent't THAT remote! Worry not, there will be two full bathrooms in the lodge, and we are renting a bathroom trailer with three or more individual bathrooms. People who choose to stay overnight can shower there in the morning, as long as you arer out by 10AM.</p>
+                    <p className='answer'>Ok, we aren't THAT remote! Worry not, there will be two full bathrooms in the lodge, and we are renting a bathroom trailer with three individual bathrooms. People who choose to stay overnight can shower there in the morning, as long as you are out by 10AM.</p>
                 </div>
             </div>
             <div className='faq-content-boxes'>
@@ -101,18 +101,16 @@ function FAQ() {
             <div className='faq-content-boxes'>
                 <h3 className='faq-questions'>Itinerary</h3>
                 <div className='faq-answers'>
-                    <p className='answer'>10 AM - Wedding party meet up at venue to begin set up.</p>
-                    <p className='answer'>1 PM - Lunch for wedding party.</p>
                     <p className='answer'>4:30 PM - Ceremony</p>
                     <p className='answer'>5:30 PM - Happy hour with salsa bar</p>
-                    <p className='answer'>6:30 PM - First dance.</p>
-                    <p className='answer'>6:40 PM - Dinner.</p>
-                    <p className='answer'>7:10 PM - Bride and Groom to begin visiting with tables.</p>
-                    <p className='answer'>7:30 PM - Bride and Groom 'song photos' with each table.</p>
-                    <p className='answer'>7:45 PM - Shoe Game.</p>
-                    <p className='answer'>8:00 PM - Dancing, partying, lawn games and bonfire.</p>
-                    <p className='answer'>8:15 PM - Donuts and S'mores, this effectively our cake cutting if you didn't want to miss that!.</p>
-                    <p className='answer'>10:30 PM - Last Dance.</p>
+                    <p className='answer'>6:30 PM - First dance</p>
+                    <p className='answer'>6:40 PM - Dinner</p>
+                    <p className='answer'>7:10 PM - Bride and Groom to begin visiting with tables</p>
+                    <p className='answer'>7:30 PM - Bride and Groom 'song photos' with each table</p>
+                    <p className='answer'>7:45 PM - Shoe Game</p>
+                    <p className='answer'>8:00 PM - Dancing, partying, lawn games and bonfire</p>
+                    <p className='answer'>8:15 PM - Donuts and S'mores, this effectively our cake cutting if you didn't want to miss that</p>
+                    <p className='answer'>10:30 PM - Last Dance</p>
                 </div>
             </div>
             <div className='faq-content-boxes'>
