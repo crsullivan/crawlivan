@@ -47,7 +47,7 @@ function FAQ() {
             <div className='faq-content-boxes'>
                 <h3 className='faq-questions'>Can I bring a plus one?</h3>
                 <div className='faq-answers'>
-                    <p className='answer'>If you got one on your invite, then yes!</p>
+                    <p className='answer'>If you got one on your save the date, then yes!</p>
                 </div>
             </div>
             <div className='faq-content-boxes'>
