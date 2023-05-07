@@ -56,7 +56,7 @@ function RSVP() {
                     <input placeholder={'1111111111'} size="10" maxLength="10" type="tel" id="phone" name="phone" pattern="[0-9]{10}" title="10 digit phone number" required/>
                 </div>
                 <div className="input-container">
-                    <label>Guest Count*: </label>
+                    <label>Total Guest Count*:<p>(including you)</p> </label>
                     <input type="number" min="1" max="10" name="count" placeholder={count} onChange={handleTextareaChange} required></input>
                 </div>
                 <div className="input-container">

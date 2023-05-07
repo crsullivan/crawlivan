@@ -1,7 +1,7 @@
 import React from 'react';
 import './BridalParty.css';
 
-function BridalParty() {
+function WeddingParty() {
     return (
         <div className="bp-container">
             <h2>The Bride's Party</h2>
@@ -54,4 +54,4 @@ function BridalParty() {
     )
   }
   
-  export default BridalParty;
+  export default WeddingParty;
